@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="src.ExtentReports.extentReport1">
+        <methods>
+          <include name="setUp1"/>
+          <include name="tearDownTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- src.ExtentReports.extentReport1 -->
+      <class name="src.TNG.NewTest">
+        <methods>
+          <include name="register"/>
+          <include name="verifyHomepageTitle"/>
+          <include name="goBackToHomepage"/>
+          <include name="launchBrowser"/>
+          <include name="terminateBrowser"/>
+          <include name="support"/>
+        </methods>
+      </class> <!-- src.TNG.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
